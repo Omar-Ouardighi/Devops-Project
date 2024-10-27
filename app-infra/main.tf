@@ -1,3 +1,7 @@
+provider "aws" {
+    profile = "default"
+    region = "eu-central-1"
+}
 
 module "networking" {
   source               = "./networking"
